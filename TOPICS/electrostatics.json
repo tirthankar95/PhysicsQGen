@@ -1,0 +1,176 @@
+{
+     "topic": "electrostatics",
+     "equations": [
+          "F = ( k * q1 * q2 ) / ( r ^ 2 )",
+          "U = ( k * q1 * q2 ) / r",
+          "V = U / q1",
+          "E_field = F / q1",
+          "C = q1 / V",
+          "U = 0.5 * C * V ^ 2",
+          "Phi = E_field * A",
+          "q_enc = epsilon_0 * Phi",
+          "E_total = 0.5 * m * v ^ 2 + U"
+     ],
+     "variable_names": {
+          "F": [
+               "electrostatic force",
+               [
+                    1e-10,
+                    100.0
+               ],
+               "N",
+               "S",
+               "R"
+          ],
+          "k": [
+               "Coulomb's constant",
+               [
+                    8990000000.0,
+                    8990000000.0
+               ],
+               "Nm^2C^-2",
+               "S",
+               "R"
+          ],
+          "q1": [
+               "charge of particle 1",
+               [
+                    1e-19,
+                    1e-06
+               ],
+               "C",
+               "S",
+               "R"
+          ],
+          "q2": [
+               "charge of particle 2",
+               [
+                    1e-19,
+                    1e-06
+               ],
+               "C",
+               "S",
+               "R"
+          ],
+          "r": [
+               "distance between charges",
+               [
+                    0.001,
+                    10
+               ],
+               "m",
+               "S",
+               "R"
+          ],
+          "U": [
+               "electrostatic potential energy",
+               [
+                    1e-18,
+                    1e-05
+               ],
+               "J",
+               "S",
+               "R"
+          ],
+          "V": [
+               "electric potential",
+               [
+                    0.001,
+                    1000.0
+               ],
+               "V",
+               "S",
+               "R"
+          ],
+          "E_field": [
+               "electric field strength",
+               [
+                    1,
+                    1000000.0
+               ],
+               "N/C",
+               "S",
+               "R"
+          ],
+          "E_total": [
+               "total electrostatic energy",
+               [
+                    1e-18,
+                    1e-05
+               ],
+               "J",
+               "S",
+               "R"
+          ],
+          "C": [
+               "capacitance",
+               [
+                    1e-12,
+                    1e-06
+               ],
+               "F",
+               "S",
+               "R"
+          ],
+          "Phi": [
+               "electric flux",
+               [
+                    1e-06,
+                    1000.0
+               ],
+               "Nm^2C^-1",
+               "S",
+               "R"
+          ],
+          "q_enc": [
+               "enclosed charge",
+               [
+                    1e-12,
+                    1e-06
+               ],
+               "C",
+               "S",
+               "R"
+          ],
+          "epsilon_0": [
+               "vacuum permittivity",
+               [
+                    8.85e-12,
+                    8.85e-12
+               ],
+               "C^2N^-1m^-2",
+               "S",
+               "R"
+          ],
+          "m": [
+               "mass of particle",
+               [
+                    1e-31,
+                    0.001
+               ],
+               "kg",
+               "S",
+               "R"
+          ],
+          "v": [
+               "velocity of particle",
+               [
+                    100.0,
+                    1000000.0
+               ],
+               "m/s",
+               "S",
+               "R"
+          ],
+          "A": [
+               "surface area",
+               [
+                    1e-06,
+                    1
+               ],
+               "m^2",
+               "S",
+               "R"
+          ]
+     }
+}

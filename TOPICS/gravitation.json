@@ -1,0 +1,132 @@
+{
+     "topic": "gravitaion",
+     "equations": [
+          "F = ( G * m1 * m2 ) / ( r ^ 2 )",
+          "U = F * r",
+          "V = U / m1",
+          "r = ( T1 ^ 2 ) * r1 / ( T2 ^ 2 )",
+          "E = 0.5 * m1 * v ^ 2 + U"
+     ],
+     "variable_names": {
+          "E": [
+               "total mechanical energy",
+               [
+                    1e+30,
+                    1e+32
+               ],
+               "J",
+               "S",
+               "R"
+          ],
+          "G": [
+               "gravitational constant",
+               [
+                    6.67e-11,
+                    6.67e-11
+               ],
+               "Nm^2kg^-2",
+               "S",
+               "R"
+          ],
+          "m1": [
+               "mass of body 1",
+               [
+                    1e+21,
+                    1e+31
+               ],
+               "kg",
+               "S",
+               "R"
+          ],
+          "m2": [
+               "mass of body 2",
+               [
+                    1e+21,
+                    1e+31
+               ],
+               "kg",
+               "S",
+               "R"
+          ],
+          "r": [
+               "distance between two bodies",
+               [
+                    1000000.0,
+                    1e+16
+               ],
+               "m",
+               "V",
+               "R"
+          ],
+          "r1": [
+               "distance between two bodies",
+               [
+                    1000000.0,
+                    1e+16
+               ],
+               "m",
+               "V",
+               "R"
+          ],
+          "U": [
+               "gravitational potential energy",
+               [
+                    -1e+25,
+                    -1e+29
+               ],
+               "J",
+               "S",
+               "R"
+          ],
+          "V": [
+               "gravitational potential",
+               [
+                    -100.0,
+                    -1000.0
+               ],
+               "Jkg^-1",
+               "S",
+               "R"
+          ],
+          "F": [
+               "force",
+               [
+                    10000000000.0,
+                    1e+21
+               ],
+               "N",
+               "V",
+               "R"
+          ],
+          "T1": [
+               "kepler orbital period",
+               [
+                    2,
+                    1000
+               ],
+               "years",
+               "S",
+               "R"
+          ],
+          "T2": [
+               "kepler orbital period",
+               [
+                    2,
+                    1000
+               ],
+               "years",
+               "S",
+               "R"
+          ],
+          "v": [
+               "velocity",
+               [
+                    50000.0,
+                    500000.0
+               ],
+               "m/s",
+               "V",
+               "R"
+          ]
+     }
+}
