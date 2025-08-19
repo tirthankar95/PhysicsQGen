@@ -4,7 +4,7 @@ from colorama import Style, Fore, Back
 model = AutoModelForCausalLM.from_pretrained("gpt2")
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
 
-def get_question(prompt):
+def get_response(prompt):
     input_ids = tokenizer(prompt, return_tensors="pt").input_ids
     gen_tokens = model.generate(
         input_ids,

@@ -2,7 +2,7 @@ import nltk
 from nltk.corpus import wordnet
 from nltk.tokenize import word_tokenize 
 from nltk import pos_tag
-
+from typing import Literal
 
 def is_noun(word):
     try:
@@ -14,7 +14,7 @@ def is_noun(word):
     noun_tags = ['NN', 'NNS', 'NNP', 'NNPS']
     return tag in noun_tags
 
-def replace_words(sentence, units):
+def replace_words_wordnet(sentence, units):
     try:
         words = word_tokenize(sentence)
     except:
@@ -31,6 +31,20 @@ def replace_words(sentence, units):
             (word not in units): synsets.append(synset_list[0].name().split('.')[0])
         else: synsets.append(word)
     return " ".join(synsets)
+
+def replace_words_llm(sentence):
+    from LLM.llm import get_response
+    instructions = """To increase the diversity and creativeness of the sentence change some words of the following sentence.
+Do not provide any suggestions or add extra explanations, just output the final sentence.\n"""
+    return get_response(instructions + sentence)
+    
+    
+def replace_words(sentence, units, strategy: Literal['llm','wordnet'] = 'wordnet'):
+    if strategy == "wordnet":
+        return replace_words_wordnet(sentence, units)
+    if strategy == "llm":
+        return replace_words_llm(sentence)
+
 
 if __name__ ==  '__main__':
     sen = "The dog died and went to heaven."

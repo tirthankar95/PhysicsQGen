@@ -1,1 +1,5 @@
 Prompt,Question
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - parallel plate capacitor, and it's properties and topic words - parallel plate capacitor area = 8.89e-02 m², parallel plate capacitor dielectric_constant = 8.55 . total electrostatic energy = 4.65e-06 J, mass of particle = 4.72e-04 kg, velocity of particle = 3.88e+05 m/s, electric potential = 188.59 V, electric field strength = 3.10e+05 N/C, electrostatic potential energy = unknown, charge of particle 1 = unknown, electrostatic force = unknown.","
+An electron with a mass of 4.72e-04 kg and a velocity of 3.88e+05 m/s is traveling towards a parallel plate capacitor with an area of 8.89e-02 m² and a dielectric constant of 8.55. Given that the electric potential of the capacitor is 188.59 V and the electric field strength is 3.10e+05 N/C, what is the electrostatic potential energy, charge of the particle, and electrostatic force experienced by the electron as it passes through the capacitor?"

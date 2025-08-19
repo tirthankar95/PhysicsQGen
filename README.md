@@ -17,3 +17,11 @@
 `physics.py` is the main entry point of the code. 
 **To see all options on how to run the code see the image below.**
 ![alt text](src/options.png)
+
+## [TBD] 
+`1. Fix ln(2) and exp(...) for nuclear physics. ??`
+`2. Instead of using topic words from json. Use RAG.`
+`    a. Decide which Physics book should I put in RAG.`
+`    b. Should I put question bank questions into RAG.`
+`    c. Create a POC to see what chunks are being fetched.`
+`    d. Prompt the original question + with all the variables.`

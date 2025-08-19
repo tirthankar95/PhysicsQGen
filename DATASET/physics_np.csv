@@ -1,1 +1,35 @@
 Prompt,Question
+"Give me a physics question using the following variable and words . You may use the following environment - nuclear reactor , and it 's property and subject words - binding energy . mass number = 240 , atomic number = 21 , mass of a neutron = 1 u, mass of neutrons = unknown.","
+What is the minimum amount of energy required for a nuclear reactor with a mass number of 240 and atomic number of 21 to undergo fission, taking into account the binding energy of the neutrons with a mass of 1 u and an unknown mass, in order to maintain a stable reaction?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - nuclear reactor, and it's properties and topic words - binding energy. mass number = 145 , atomic number = 52 , mass of a neutron = 1 u, mass defect = 9 u, mass of protons = 93 u, mass of neutrons = unknown, mass of element = unknown.","
+What is the mass of the unknown number of neutrons in a nucleus of element X with a mass number of 145 and atomic number of 52, given that the mass defect is 9 u and the mass of protons is 93 u, in a nuclear reactor where the binding energy is a crucial factor in the stability of the nucleus? "
+"Give me a physics question using the following variable and words . You may use the following environment - hydrogen bomb , and it 's property and subject words - tritium . mass of protons = 25 u, mass of a proton = 1 u, mass number = 253 , mass of a neutron = 1 u, atomic number = unknown, mass of neutrons = unknown.","
+What is the mass of the tritium isotope present in a hydrogen bomb, assuming that the atomic number of the element is unknown and the total mass of protons and neutrons is 253 u?"
+"Give me a physics question using the following variable and words . You may use the following environment - hydrogen bomb , and it 's property and subject words - fusion . mass number = 132 , atomic number = 95 , mass of a neutron = 1 u, mass defect = 1 u, mass of element = 63 u, mass of neutrons = unknown, mass of protons = unknown, mass of a proton = unknown.","
+What is the minimum mass of neutrons and protons required for a fusion reaction to occur in a hydrogen bomb with a mass number of 132 and an atomic number of 95, assuming each neutron and proton has a mass of 1 u and the mass defect is also 1 u?"
+"Give me a physics question using the following variable and words . You may use the following environment - atomic bomb , and it 's property and subject words - fission . mass defect = 0 u, mass of protons = 16 u, mass of element = 229 u, mass number = 140 , mass of a neutron = 1 u, mass of neutrons = unknown, atomic number = unknown, mass of a proton = unknown.","
+""How does the mass defect of 0 u in the atomic bomb's fission reaction, where 16 u of mass is converted into energy, contribute to the overall mass of the element, which has a mass number of 140 and an unknown atomic and neutron number?"""
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - atomic bomb, and it's properties and topic words - beta decay. mass of neutrons = 95 u, mass number = 256 , mass of a neutron = 1 u, mass of protons = 25 u, atomic number = unknown, mass of a proton = unknown.","
+How would the process of beta decay affect the atomic bomb's properties, given that the mass number of the atom is 256 and the mass of neutrons is 95 u, with an unknown atomic number and mass of protons?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - nuclear reactor, and it's properties and topic words - mass defect. atomic number = 117 , mass of a proton = 1 u, mass of protons = unknown.","
+What is the mass defect in a nuclear reactor containing atoms with atomic number 117, if the mass of a proton is 1 u and the total mass of all protons in the reactor is unknown?"
+"Give me a physics question using the following variable and words . You may use the following environment - nuclear reactor , and it 's property and subject words - alpha decay . mass number = 215 , mass of a neutron = 1 u, mass of a proton = 1 u, mass defect = 4 u, mass of element = 158 u, atomic number = unknown, mass of protons = unknown, mass of neutrons = unknown.","
+What is the atomic number of the element undergoing alpha decay in a nuclear reactor if its mass number is 215 and its mass defect is 4 u? Given that the mass of a neutron is 1 u and the mass of a proton is 1 u, what are the unknown masses of protons and neutrons in the element?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - atomic bomb, and it's properties and topic words - fission. mass defect = 9 u, speed of light = 300000000 m/s, binding Energy = unknown.","
+How does the process of fission in an atomic bomb, with a mass defect of 9 u, result in the release of a significant amount of energy, potentially exceeding the binding energy of the nucleus and approaching the speed of light at 300000000 m/s?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - atomic bomb, and it's properties and topic words - beta decay. mass of protons = 61 u, mass of a proton = 1 u, atomic number = unknown.","
+How does the mass of protons and the atomic number affect the energy released in an atomic bomb through the process of beta decay?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - hydrogen bomb, and it's properties and topic words - tritium. activity = 7.03e+29 Bq, decay constant = 85458 1/s, number of nuclei at time t = unknown.","
+What is the expected number of tritium nuclei that will decay in a hydrogen bomb after 10 seconds, given an activity of 7.03e+29 Bq and a decay constant of 85458 1/s?"

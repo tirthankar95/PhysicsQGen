@@ -1,5 +1,5 @@
 import json 
-from LLM.llm_OpenAI import get_question as openai_question
+from LLM.llm_OpenAI import get_response as openai_question
 import os 
 
 '''
@@ -12,9 +12,10 @@ db = [
     }
 ]
 
-prompt_mine = """Give me a physics question using the following variables and words.
-
- You may use the following environment - train, and it's properties and topic words - ball, train acceleration = 79.57 ms^-2 at an angle 152 degrees with the horizontal, train velocity = 57.91 m/s at an angle 8 degrees with the horizontal, train length = 544.05 m, train height = 68.69 m. ['ms^-2', 'm/s', 'm'
+prompt_mine = """Give me a physics question using the following variable and words. 
+You may use the following environment - Solar System(B), and it's property and subject words - kepler-22b, 
+separation, force acting between gravitational potential, Solar System(B) planets = 20 at an angle 98 degrees with the horizontal. 
+force = 5.76e + 19N, mass of body 2 = 5.23e + 30kg, distance between two bodies = 4.27e + 15m, mass of body 1 = unknown.
 """
 
 prompt_normal = """Give me a physics question on electrostatics?"""

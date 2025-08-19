@@ -1,0 +1,144 @@
+Prompt,Question
+"Give me a physics question using the following variable and words . In a hydrogen bomb , fusion , tritium , mass defect , binding energy . mass of protons = 114.03 u, mass of a proton = 1.01 u, atomic number = unknown.","
+What is the binding energy released during fusion of tritium and deuterium in a hydrogen bomb, given that the mass defect of the reaction is 0.008 u and the atomic number of the resulting element is unknown?"
+"Give me a physics question using the following variables and words.
+
+ In a atomic bomb, fission, alpha decay, beta decay, mass defect, binding energy. mass defect = 2.99 u, mass of protons = 91.07 u, mass of element = 67.37 u, mass number = 281.61 , mass of a neutron = 1.01 u, mass of neutrons = unknown, atomic number = unknown, mass of a proton = unknown.","
+What is the minimum number of neutrons required for an element with a mass number of 281.61 to undergo alpha decay and release enough binding energy to trigger a nuclear fission reaction in an atomic bomb?"
+"Give me a physics question using the following variable and words . In a nuclear reactor , alpha decay , beta+ decay , binding energy , mass defect . mass of neutrons = 168.4 u, mass number = 37.44 , mass of a neutron = 1.01 u, atomic number = unknown.","
+What is the binding energy of a nucleus undergoing alpha decay if the initial mass number is 37.44 and the mass of the resulting nucleus is 168.4 u? Assume the mass of a neutron is 1.01 u and the atomic number is unknown. How does this compare to the binding energy of a nucleus undergoing beta+ decay with the same initial and final masses?"
+"Give me a physics question using the following variables and words.
+
+ In a atomic bomb, fission, alpha decay, beta decay, mass defect, binding energy. mass defect = 1.19 u, mass of element = 130.96 u, mass of a proton = 1.01 u, mass number = 50.77 , mass of a neutron = 1.01 u, mass of protons = unknown, atomic number = unknown, mass of neutrons = unknown.","
+What is the binding energy of an atom undergoing fission through alpha and beta decay, given a mass defect of 1.19 u and a total mass of 130.96 u, with a mass number of 50.77 and unknown masses for protons, neutrons, and atomic number?"
+"Give me a physics question using the following variable and words . In a nuclear reactor , alpha decay , beta+ decay , binding energy , mass defect . binding Energy = 6.85 MeV, speed of light = 3.00e+08 m/s, mass of protons = 19.75 u, mass of element = 271.31 u, mass number = 174.61 , atomic number = 35.8 , mass defect = unknown, mass of neutrons = unknown, mass of a neutron = unknown.","
+Calculate the mass defect and binding energy in the alpha decay of an element with a mass number of 174.61 and atomic number of 35.8, given that the mass of protons is 19.75 u and the mass of a neutron is unknown. Assume the speed of light is 3.00e+08 m/s and the binding energy is 6.85 MeV. "
+"Give me a physics question using the following variable and words . In a atomic bomb , fission , alpha decay , beta decay , mass defect , binding energy . mass number = 58.22 , atomic number = 42.02 , mass of a neutron = 1.01 u, mass of protons = 92.31 u, mass of element = 275.39 u, mass of neutrons = unknown, mass defect = unknown.","
+What is the mass defect and binding energy of the element produced in an atomic bomb that undergoes fission, followed by alpha and beta decay, if the initial mass numbers of the fissioned nucleus and the final element are 58.22 and 275.39, respectively, and the atomic number of the final element is 42.02? Assume the mass of a neutron is 1.01 u and the mass of protons is 92.31 u."
+"Give me a physics question using the following variables and words.
+
+ In a nuclear reactor, alpha decay, beta- decay, mass defect, binding energy. mass of protons = 72.03 u, mass of neutrons = 151.83 u, mass of element = 124.05 u, binding Energy = 2.9 MeV, mass defect = unknown, speed of light = unknown.","
+What is the total mass defect and binding energy released during the alpha and beta-decay processes in a nuclear reactor containing an element with a mass of 124.05 u, composed of 72.03 u protons and 151.83 u neutrons, given a binding energy of 2.9 MeV and an unknown speed of light?"
+"Give me a physics question using the following variable and words . In a hydrogen bomb , fusion , tritium , mass defect , binding energy . mass of neutrons = 156.65 u, mass number = 93.09 , mass of a neutron = 1.01 u, atomic number = unknown.","
+What is the minimum amount of tritium, in grams, needed to initiate the fusion reaction in a hydrogen bomb with a yield of 10 megatons, given a mass defect of 3.4 x 10^16 joules and a binding energy of 20 MeV for each deuteron formed from the fusion of two tritium nuclei (mass number = 6) and one neutron (mass number = 1)? Assume the atomic number of the unknown element created in the reaction is equal to the mass number."
+"Give me a physics question using the following variables and words.
+
+ In a nuclear reactors, alpha decay, beta+ decay, binding energy, mass defect. binding Energy = 9.03 MeV, speed of light = 3.00e+08 m/s, mass of protons = 53.75 u, mass of element = 96.11 u, mass number = 60.08 , atomic number = 117.44 , mass defect = unknown, mass of neutrons = unknown, mass of a neutron = unknown.","
+What is the mass defect in MeV of a nucleus with a mass number of 60.08 and atomic number of 117.44 undergoing alpha decay and beta+ decay, with a binding energy of 9.03 MeV, and containing a mass of protons with a combined mass of 53.75 u and an unknown number of neutrons with a mass equal to that of a single neutron?"
+"Give me a physics question using the following variables and words.
+
+ In a atomic bomb, fission, alpha decay, beta decay, mass defect, binding energy. mass of neutrons = 93.97 u, atomic number = 70.68 , mass of a neutron = 1.01 u, mass number = unknown.","
+What is the mass defect and resulting binding energy in the process of fission in an atomic bomb that results in alpha and beta decay, if the initial mass of neutrons is 93.97 u and the atomic number is 70.68, and the final mass number is unknown?"
+"Give me a physics question using the following variables and words.
+
+ In a atomic bomb, fission, alpha decay, beta decay, mass defect, binding energy. mass of neutrons = 122.36 u, mass number = 79.77 , mass of a neutron = 1.01 u, mass of protons = 23.71 u, atomic number = unknown, mass of a proton = unknown.","
+How does the mass defect and binding energy of a uranium atom undergoing fission compare to the mass and energy released during an alpha decay and beta decay, given the following information: the initial atomic number is unknown, the final atomic number after fission is 79.77, the mass of a neutron is 1.01 u, the mass of a proton is 23.71 u, and the mass of neutrons in the final state is 122.36 u?"
+"Give me a physics question using the following variables and words.
+
+ In a atomic bomb, fission, alpha decay, beta decay, mass defect, binding energy. mass number = 41.88 , atomic number = 40.23 , mass of a neutron = 1.01 u, mass defect = 3.66 u, mass of element = 184.73 u, mass of neutrons = unknown, mass of protons = unknown.","
+What is the total mass of the neutrons and protons in an atomic bomb that undergoes fission, alpha decay, and beta decay, if the mass defect is 3.66 u and the binding energy is 41.88 u, and the atomic number and mass number of the element before and after the decays are 40.23 and 184.73, respectively?"
+"Give me a physics question using the following variables and words.
+
+ In a nuclear reactors, alpha decay, beta+ decay, binding energy, mass defect. mass of neutrons = 121.81 u, mass number = 277.94 , atomic number = 48.76 , mass of a neutron = unknown.","
+What is the binding energy of a nucleus undergoing alpha decay if its mass number is 277.94 and its atomic number is 48.76, and it contains 121.81 u of neutrons with an unknown mass? "
+"Give me a physics question using the following variables and words.
+
+ In a hydrogen bomb, fusion, tritium, mass defect, binding energy. binding Energy = 5.18 MeV, speed of light = 3.00e+08 m/s, mass of protons = 29.16 u, mass of element = 37.72 u, mass number = 21.19 , atomic number = 92.66 , mass defect = unknown, mass of neutrons = unknown, mass of a neutron = unknown.","
+What is the mass defect of the element produced during the fusion of tritium (mass number = 3) with a hydrogen atom (atomic number = 1) in a hydrogen bomb, given that the binding energy is 5.18 MeV and the masses of the protons and element are 29.16 u and 37.72 u, respectively?"
+"Give me a physics question using the following variable and words . In a atomic bomb , fission , alpha decay , beta decay , mass defect , binding energy . mass of protons = 70.79 u, mass of a proton = 1.01 u, mass number = 194.48 , mass of a neutron = 1.01 u, mass of element = 230.92 u, binding Energy = 0.33 MeV, atomic number = unknown, mass of neutrons = unknown, mass defect = unknown, speed of light = unknown.","
+How much energy is released during the fission reaction of an atomic bomb containing 194.48 mass units of a highly unstable element with a binding energy of 0.33 MeV, when it undergoes both alpha and beta decay, with a total mass defect of unknown value and an unknown atomic number, considering the mass of protons and neutrons to be 70.79 u and 1.01 u respectively, and assuming the speed of light to be a constant? "
+"Give me a physics question using the following variable and words . In a nuclear reactor , alpha decay , beta- decay , mass defect , binding energy . binding Energy = 1.78 MeV, speed of light = 3.00e+08 m/s, mass of protons = 61.99 u, mass of neutrons = 109.4 u, mass defect = unknown, mass of element = unknown.","
+What is the binding energy of a nucleus that undergoes alpha decay and then beta-decay, resulting in a mass defect of 0.5 u? Assume the nucleus initially contained 61.99 protons and 109.4 neutrons, and that the binding energy is 1.78 MeV."
+"Give me a physics question using the following variable and words . In a nuclear reactor , alpha decay , beta- decay , mass defect , binding energy . mass defect = 5.36 u, mass of neutrons = 114.24 u, mass of element = 132.15 u, atomic number = 21.82 , mass of protons = unknown, mass of a proton = unknown.","
+What is the binding energy of the element undergoing alpha decay in a nuclear reactor, if it has a mass defect of 5.36 u and an atomic number of 21.82, and the mass of neutrons is 114.24 u and the mass of protons is unknown?"
+"Give me a physics question using the following variables and words.
+
+ In a atomic bomb, fission, alpha decay, beta decay, mass defect, binding energy. mass defect = 7.44 u, mass of protons = 80.16 u, mass of element = 275.42 u, atomic number = 81.95 , mass of a neutron = 1.01 u, mass of neutrons = unknown, mass number = unknown.","
+What is the mass of the unknown number of neutrons in an atomic bomb that undergoes fission, alpha decay, and beta decay, given that the mass defect is 7.44 u, the mass of protons is 80.16 u, the mass of the element is 275.42 u, the atomic number is 81.95, the mass of a neutron is 1.01 u, and the mass number is unknown? Additionally, calculate the binding energy of the atomic bomb."
+"Give me a physics question using the following variables and words.
+
+ In a nuclear reactor, alpha decay, beta- decay, mass defect, binding energy. binding Energy = 1.33 MeV, speed of light = 3.00e+08 m/s, mass of protons = 74.2 u, mass of element = 198.76 u, mass defect = unknown, mass of neutrons = unknown.","
+What is the mass defect of an element undergoing alpha decay if its binding energy is 1.33 MeV and the mass of its protons and neutrons is 274.96 u?"
+"Give me a physics question using the following variable and words . In a nuclear reactor , alpha decay , beta+ decay , binding energy , mass defect . mass number = 219.95 , atomic number = 107.88 , mass of a neutron = 1.01 u, mass of neutrons = unknown.","
+How much binding energy is released in the reaction of alpha decay and beta+ decay in a nuclear reactor if the mass defect of the reaction is 0.018 u and the mass number of the resulting nucleus is 219.95, with an atomic number of 107.88 and an unknown mass of neutrons?"
+"Give me a physics question using the following variables and words.
+
+ In a hydrogen bomb, fusion, tritium, mass defect, binding energy. mass of neutrons = 26.66 u, mass number = 66.03 , mass of a neutron = 1.01 u, mass of protons = 90.84 u, atomic number = unknown, mass of a proton = unknown.","
+How does the mass defect and binding energy of tritium contribute to the process of fusion in a hydrogen bomb, given the known masses of neutrons and protons and the unknown atomic number and mass of a proton?"
+"Give me a physics question using the following variable and words . In a nuclear reactor , alpha decay , beta+ decay , binding energy , mass defect . mass defect = 7.08 u, speed of light = 3.00e+08 m/s, binding Energy = unknown.","
+What is the binding energy released in the process of alpha decay in a nuclear reactor if the mass defect is 7.08 u and the speed of light is 3.00e+08 m/s?"
+"Give me a physics question using the following variables and words.
+
+ In a nuclear reactor, alpha decay, beta- decay, mass defect, binding energy. mass defect = 9.66 u, mass of neutrons = 56.9 u, mass of element = 281.44 u, atomic number = 19.68 , mass of protons = unknown, mass of a proton = unknown.","
+What is the binding energy of the element undergoing alpha decay if the mass defect is 9.66 u and the atomic number is 19.68? "
+"Give me a physics question using the following variables and words.
+
+ In a atomic bomb, fission, alpha decay, beta decay, mass defect, binding energy. binding Energy = 2.27 MeV, speed of light = 3.00e+08 m/s, mass of protons = 69.31 u, mass of element = 180.22 u, mass defect = unknown, mass of neutrons = unknown.","
+What is the mass defect of an atomic bomb that undergoes fission, resulting in alpha and beta decay, if the binding energy of the system is 2.27 MeV? Assume the speed of light is 3.00e+08 m/s and the bomb contains a combination of 69.31 u protons and an unknown number of neutrons, with a total mass of 180.22 u."
+"Give me a physics question using the following variables and words.
+
+ In a hydrogen bomb, fusion, tritium, mass defect, binding energy. atomic number = 78.76 , mass of a proton = 1.01 u, mass defect = 9.31 u, mass of neutrons = 21.04 u, mass of protons = unknown, mass of element = unknown.","
+What is the binding energy required for the fusion of tritium and an unknown mass of protons in a hydrogen bomb with an atomic number of 78.76, given a mass defect of 9.31 u and a total mass of the element being unknown, if the mass of a proton is 1.01 u and the mass of a neutron is 21.04 u?"
+"Give me a physics question using the following variable and words . You may use the following environment - hydrogen bomb , and it 's property and subject words - binding energy . mass of neutrons = 3 u, mass number = 219 , mass of a neutron = 1 u, mass of a proton = 1 u, mass of element = 23 u, speed of light = 300000000 m/s, atomic number = unknown, mass of protons = unknown, mass defect = unknown, binding Energy = unknown.","
+What is the minimum binding energy required for a hydrogen bomb with a mass number of 219 and an unknown atomic number, using a combination of 3 u neutrons and 1 u protons, with a total mass of 23 u, and taking into account the mass defect and the speed of light? "
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - hydrogen bomb, and it's properties and topic words - tritium. mass of a proton = 1 u, mass number = 153 , mass of a neutron = 1 u, mass defect = 7 u, mass of element = 50 u, atomic number = unknown, mass of neutrons = unknown, mass of protons = unknown.","
+What is the minimum amount of tritium needed to initiate a fusion reaction in a hydrogen bomb with a mass defect of 7 u?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - nuclear reactors, and it's properties and topic words - alpha decay. mass defect = 1 u, mass of protons = 46 u, mass of neutrons = 10 u, mass of element = unknown.","
+How does the mass defect of 1 u in an unstable element undergoing alpha decay, with a total mass of 56 u composed of 46 u of protons and 10 u of neutrons, affect the energy released in a nuclear reactor?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - hydrogen bomb, and it's properties and topic words - fusion. binding Energy = 6.8 MeV, speed of light = 300000000 m/s, mass defect = unknown.","
+How much mass must be converted into energy in a hydrogen bomb through the process of fusion, given a binding energy of 6.8 MeV and a speed of light of 300000000 m/s? What is the resulting mass defect?"
+"Give me a physics question using the following variable and words . You may use the following environment - nuclear reactor , and it 's property and subject words - mass defect . binding Energy = 6.4 MeV, speed of light = 300000000 m/s, mass of element = 293 u, mass number = 8 , mass of a neutron = 1 u, mass of a proton = 1 u, mass defect = unknown, mass of neutrons = unknown, atomic number = unknown, mass of protons = unknown.","
+How does the speed of light and the mass defect of a nuclear reactor's element affect the binding energy required for a chain reaction to occur, given that the mass of the element is 293 u and the atomic number is unknown?"
+"Give me a physics question using the following variable and words . You may use the following environment - atomic bomb , and it 's property and subject words - fission . binding Energy = 4.02 MeV, speed of light = 300000000 m/s, mass of protons = 59 u, mass of element = 170 u, mass number = 235 , atomic number = 27 , mass defect = unknown, mass of neutrons = unknown, mass of a neutron = unknown.","
+What is the minimum mass of fissionable material, in atomic bomb, required to achieve a chain reaction with a binding energy of 4.02 MeV, given that the mass of protons is 59 u and the mass of element is 170 u?"
+"Give me a physics question using the following variable and words . You may use the following environment - hydrogen bomb , and it 's property and subject words - fusion . mass of neutrons = 62 u, mass number = 258 , atomic number = 25 , mass of a neutron = unknown.","
+How does the mass of neutrons in a hydrogen bomb, particularly the unknown mass of a neutron, affect the process of fusion and the resulting explosive power?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - atomic bomb, and it's properties and topic words - beta decay. mass defect = 9 u, mass of neutrons = 75 u, mass of element = 207 u, mass of protons = unknown.","
+What is the mass of protons in an element that has a mass defect of 9 u, with a total mass of 207 u and a mass of neutrons of 75 u, assuming beta decay has occurred due to the detonation of an atomic bomb?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - atomic bomb, and it's properties and topic words - fission. binding Energy = 8.86 MeV, speed of light = 300000000 m/s, mass of protons = 77 u, mass of element = 162 u, atomic number = 53 , mass of a neutron = 1 u, mass defect = unknown, mass of neutrons = unknown, mass number = unknown.","
+What is the minimum amount of fissionable material, in terms of atomic number and mass number, needed to create an atomic bomb with a binding energy of 8.86 MeV, assuming the speed of light is 300000000 m/s and the mass of protons is 77 u, and the mass of element is 162 u?"
+"Give me a physics question using the following variable and words . You may use the following environment - nuclear reactor , and it 's property and subject words - mass defect . mass of protons = 59 u, mass of a proton = 1 u, atomic number = unknown.","
+What is the mass defect of a nuclear reactor with an atomic number of unknown, given that the total mass of protons is 59 u and the mass of a single proton is 1 u?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - nuclear reactors, and it's properties and topic words - alpha decay. mass of neutrons = 90 u, mass number = 152 , mass of a neutron = 1 u, mass of a proton = 1 u, atomic number = unknown, mass of protons = unknown.","
+What is the atomic number of an unknown element undergoing alpha decay with a mass number of 152 and a nuclear reactor with a total mass of 90 u composed of neutrons and protons with individual masses of 1 u?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - hydrogen bomb, and it's properties and topic words - fusion. binding Energy = 3.54 MeV, speed of light = 300000000 m/s, mass defect = unknown.","
+What is the minimum amount of hydrogen atoms needed for a successful fusion reaction in a hydrogen bomb, assuming a binding energy of 3.54 MeV and a speed of light of 300000000 m/s, and what would be the resulting mass defect?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - nuclear reactor, and it's properties and topic words - binding energy. mass of protons = 33 u, mass of neutrons = 137 u, mass of element = 284 u, binding Energy = 3.96 MeV, mass defect = unknown, speed of light = unknown.","
+What is the mass defect of an element with a total mass of 284 u and a binding energy of 3.96 MeV, assuming it is composed of 33 protons and 137 neutrons and obeys the principles of a nuclear reactor?"
+"Give me a physics question using the following variable and words . You may use the following environment - nuclear reactor , and it 's property and subject words - binding energy . mass defect = 1 u, speed of light = 300000000 m/s, binding Energy = unknown.","
+What is the minimum mass of a nuclear reactor that would produce a binding energy of 1 u, assuming the speed of light is 300000000 m/s?"
+"Give me a physics question using the following variable and words . You may use the following environment - nuclear reactor , and it 's property and subject words - mass defect . mass of protons = 79 u, mass of a proton = 1 u, mass of neutrons = 126 u, mass of a neutron = 1 u, atomic number = unknown, mass number = unknown.","
+What is the mass defect of an unknown element in a nuclear reactor with a mass of 205 u, an atomic number of 126, and a mass number of 205, given the individual masses of protons and neutrons as 79 u and 126 u respectively?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - atomic bomb, and it's properties and topic words - mass defect. mass defect = 3 u, mass of neutrons = 132 u, mass of element = 245 u, mass of protons = unknown.","
+What is the approximate mass of the missing protons in an atomic bomb with a mass defect of 3 u, a mass of neutrons of 132 u, and a total mass of 245 u?"
+"Give me a physics question using the following variable and words . You may use the following environment - nuclear reactor , and it 's property and subject words - binding energy . mass defect = 9 u, mass of neutrons = 163 u, mass of element = 241 u, mass of protons = unknown.","
+What is the minimum number of protons required for a nuclear reactor to have a binding energy of 9 u, given that the mass defect is 9 u and the mass of 163 neutrons and 241 u element?"
+"Give me a physics question using the following variable and words . You may use the following environment - nuclear reactor , and it 's property and subject words - mass defect . mass defect = 7 u, mass of neutrons = 147 u, mass of element = 260 u, atomic number = 21 , mass of protons = unknown, mass of a proton = unknown.","
+How does the concept of mass defect explain the release of energy in a nuclear reactor, given that the mass of neutrons in the reactor is 147 u, the mass of the element being used is 260 u, and the atomic number is 21, while the mass of protons and a proton are both unknown?"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - atomic bomb, and it's properties and topic words - mass defect. mass of protons = 2 u, mass of neutrons = 70 u, mass of element = 105 u, speed of light = 300000000 m/s, mass defect = unknown, binding Energy = unknown.","
+If an atomic bomb with a mass of 105 u undergoes a nuclear reaction, resulting in a mass defect of 5 u, what is the corresponding binding energy released based on the mass defect and the masses of the protons and neutrons, assuming a speed of light of 300000000 m/s? 
+"
+"Give me a physics question using the following variables and words.
+
+ You may use the following environment - hydrogen bomb, and it's properties and topic words - mass defect. atomic number = 109 , mass of a proton = 1 u, mass defect = 6 u, mass of element = 42 u, mass of protons = unknown, mass of neutrons = unknown.","
+What is the minimum number of neutrons required for an element with an atomic number of 109 to undergo a nuclear fusion reaction and produce a hydrogen bomb, given that its mass is 42 u and the mass defect is 6 u?"

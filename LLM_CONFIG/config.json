@@ -2,11 +2,12 @@
     "LANGCHAIN_TRACING_V2": true,
     "LANGCHAIN_ENDPOINT": "https://api.smith.langchain.com",
     "LANGCHAIN_API_KEY": "X",
-    "OPENAI_API_KEY":"X",
+    "OPENAI_API_KEY": "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",
     "HUGGINGFACEHUB_API_TOKEN": "X",
-    "BUILD_DATASET": true,
+    "BUILD_DATASET": false,
     "LLM_MODEL": {
         "MAIN_MODEL":  "llm_OpenAI",
-        "INNER_MODEL": "gpt-3.5-turbo-instruct"
+        "INNER_MODEL": "local",
+        "MODEL_HISTORY": ["gpt-4o-mini", "gpt-3.5-turbo-instruct", "local"]
     }
 }

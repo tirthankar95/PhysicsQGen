@@ -7,7 +7,7 @@ def StopHallucinations(response):
 
 model_id = "HuggingFaceH4/zephyr-7b-beta"
 model_id = "microsoft/Phi-3.5-mini-instruct"
-def get_question(problem, m_name):
+def get_response(problem, m_name):
     model_id = m_name
     llm = HuggingFaceEndpoint(repo_id = model_id, temperature = 0.1)  
     template = """
