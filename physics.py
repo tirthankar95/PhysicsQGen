@@ -108,9 +108,11 @@ def get_phyQ(topic):
         Do not use LLM to check if the final question is valid or not because 
         our claim is that LLMs cannot solve complex physics questions.
         '''
-        ins0, ins1 = "Generate a physics question using all the known and unknown variables. You must use all the variables.\n[variables] ", \
-            "\nand you may choose to use the elements from topic phrase.\n[topic phrase] "
-        prompt = ins0 + prompt + ins1 + topic_words
+        ins0, ins1, ins2 = "Generate a physics question using all the known and unknown variables. You must use all the variables.\n[variables] ", \
+                "\nand you may choose to use the elements from topic phrase.\n[topic phrase] ", \
+                ". Do not provide solution to the question, as it will be solved directly by the student."
+                
+        prompt = ins0 + prompt + ins1 + topic_words + ins2 
         problem = get_response(prompt)
         logging.info(f'\n[FINAL PROMPT] {prompt=}' + '\n' + '-' * 100)
         print(f'{Style.BRIGHT}{Fore.GREEN}{problem.strip()}')

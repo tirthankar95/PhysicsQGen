@@ -157,7 +157,6 @@ class RagDB:
             encode_kwargs=encode_kwargs
         )
         if not self.collection_exists():
-            logger.info('Creating collections.')
             self.create_collection()
         
     def collection_exists(self):
@@ -200,7 +199,7 @@ class RagDB:
         ) 
         found_docs = qdrant.similarity_search_with_score(query, k=top_k)
         for doc, score in found_docs:
-            logger.info(f'Score[{score}]\n{doc.page_content[:50]}\n------------------------\n')
+            logger.debug(f'Score[{score}]\n{doc.page_content[:50]}\n------------------------\n')
         docs, scores = [doc.page_content for doc, score in found_docs], [score for doc, score in found_docs]
         scores = np.exp(np.array(scores) - max(scores))
         scores /= np.sum(scores)
@@ -243,10 +242,11 @@ If you do not need to fetch additional data keep the vector_sentence as empty.""
             chunks = self.rag.get_chunks(state['question'])
             state['vector_chunks'] = chunks + "\n"
             logger.info('[Initial Prompt:]\n' + state['question'])
-            logger.info('[Initial Chunks:]\n' + chunks[-100:] + '\n'+'---'*25+'\n')
+            logger.debug('[Initial Chunks:]\n' + chunks[-100:] + '\n'+'---'*25+'\n')
             return {'vector_chunks': chunks,
                     'verdict': 'fetch'}
         else:
+            self.mx_cycle -= 1
             prompt = [
                 SystemMessage(content=f"""You are an agent who is an expert at retrieving relevant information from a vector database so that the next agent can generate physics questions based on user prompts.
 As input, you will receive the original user prompt and the history of retrieved vector chunk. Your task is to determine whether the retrieved information is sufficient to form a good physics question.
@@ -256,11 +256,11 @@ Remember chunks are retrieved after doing similarity search with the question yo
                 HumanMessage(content=f"""Original prompt: {state['question']},\nHistory of vector chunks: {state['vector_chunks']}""")
             ]
             query = self.llm_fetch.invoke(prompt)
-            if query.verdict == 'halt': 
+            if query.verdict == 'halt' or self.mx_cycle == 0: 
                 return {'verdict': 'halt'}
             state['vector_chunks'] += self.rag.get_chunks(query.vector_sentence) + "\n"
             logger.info('[VectorDB Prompt:]\n' + query.vector_sentence)
-            logger.info('[Next Chunks:]\n' + state['vector_chunks'][-100:] + '\n'+'---'*25+'\n')
+            logger.debug('[Next Chunks:]\n' + state['vector_chunks'][-100:] + '\n'+'---'*25+'\n')
             return {'vector_chunks': state['vector_chunks'],
                     'verdict': 'fetch'}
 
@@ -295,6 +295,7 @@ Your task is to:
         self.ai_rag = workflow.compile()
 
     def get_topic_phrase(self, question):
+        self.mx_cycle = 5
         state = self.ai_rag.invoke({'question': question})
         return state['summary_chunk']
 ######################
@@ -308,6 +309,6 @@ if __name__ == '__main__':
     # print(topic_words, units)
     
     ## Check Agentic RAG 
-    r_agent = RagAgent(model_name="local", topic_name="env_sm")
+    r_agent = RagAgent(model_name="gpt-4o-mini", topic_name="env_sm")
     resp = r_agent.get_topic_phrase('Create a question using the following equation v = u + a * t, S = u * t + 0.5 * a * t * t')
     print(resp)

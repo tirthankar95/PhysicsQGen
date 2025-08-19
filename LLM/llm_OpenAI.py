@@ -15,6 +15,7 @@ def get_llm(m_name):
             api_key = "X"
         )
     else:
+        load_env_vars()
         llm = ChatOpenAI(
             model_name = m_name, 
             api_key = os.environ["OPENAI_API_KEY"]
@@ -29,5 +30,4 @@ def get_response(prompt, m_name):
     return llm.invoke(prompts).content
 
 if __name__ == '__main__':
-    load_env_vars()
     print(get_response("Who are you?", "gpt-4o-mini"))
