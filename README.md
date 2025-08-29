@@ -35,15 +35,6 @@ python physics.py --trials <num_questions>
 See all options below:
 ![Options](src/options.png)
 
-## Planned Improvements
-
-- [ ] Fix `ln(2)` and `exp(...)` handling for nuclear physics.
-- [ ] Replace static topic words with RAG-based retrieval.
-    - Decide which physics books to index in Qdrant.
-    - Consider including question bank data.
-    - Create a POC to inspect retrieved chunks.
-    - Prompt with original question and all variables.
-
 ## Citation
 
 If you use this codebase, please cite or acknowledge appropriately.
