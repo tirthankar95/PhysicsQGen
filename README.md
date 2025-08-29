@@ -29,10 +29,8 @@ This project uses an agentic RAG pipeline to iteratively retrieve and refine con
 `physics.py` is the main entry point.
 
 ```bash
-python physics.py --trials <num_questions>
+python physics.py
 ```
-
-See all options below:
 ![Options](src/options.png)
 
 ## Citation
