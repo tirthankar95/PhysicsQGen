@@ -165,8 +165,22 @@ class RagDB:
         collections = [c.name for c in collections]
         client.close()
         return True if self.topic in collections else False 
+    
+    def delete_collections(self, collection_name):
+        client = QdrantClient(path = 'QdrantDB')
+        # BEFORE
+        collections = client.get_collections().collections
+        collections = [c.name for c in collections]
+        print(f'Before Deletion: {', '.join(collections)}')
+        client.delete_collection(collection_name=collection_name)
+        # AFTER
+        collections = client.get_collections().collections
+        collections = [c.name for c in collections]
+        print(f'After Deletion: {', '.join(collections)}')
+        client.close()
 
     def create_collection(self):
+        print(f'[TM] tirthankar mittra:')
         client = QdrantClient(path = 'QdrantDB')
         client.create_collection(
             collection_name=self.topic,
@@ -179,6 +193,7 @@ class RagDB:
             retrieval_mode = RetrievalMode.DENSE
         ) 
         files = glob.glob(f"RAW_TEXT/{self.topic}*.pdf")
+        print(f'{files=}')
         for file in files:
             logger.info(f'Adding {file}')
             loader = PyPDFLoader(file)
@@ -209,6 +224,7 @@ class RagDB:
         chunks = re.sub(r'[^\w\s=.]', ' ', chunks)
         client.close()
         return chunks
+    
 class RagAgent:        
     class RagAgentState(TypedDict):
         question: str
@@ -307,8 +323,30 @@ if __name__ == '__main__':
     # obj_env = Env("env_sm.json")
     # topic_words, units = obj_env.get_topic_words()
     # print(topic_words, units)
-    
+    '''
     ## Check Agentic RAG 
-    r_agent = RagAgent(model_name="gpt-4o-mini", topic_name="env_sm")
-    resp = r_agent.get_topic_phrase('Create a question using the following equation v = u + a * t, S = u * t + 0.5 * a * t * t')
+    r_agent = RagAgent(model_name="local", topic_name="env_elec")
+    resp = r_agent.get_topic_phrase("Superposition Principle: The principle is based on the property that the forces 
+with which two charges attract or repel each other are not affected by the presence of a third")
     print(resp)
+    '''
+    model_kwargs = {'device': 'cpu'}
+    encode_kwargs = {'normalize_embeddings': False}
+    hf = HuggingFaceEmbeddings(
+        model_name="sentence-transformers/all-mpnet-base-v2",
+        model_kwargs=model_kwargs,
+        encode_kwargs=encode_kwargs
+    )
+    client = QdrantClient(path = 'QdrantDB')
+    qdrant = QdrantVectorStore(
+        client = client, 
+        collection_name = "env_elec", 
+        embedding = hf, 
+        retrieval_mode = RetrievalMode.DENSE
+    ) 
+    found_docs = qdrant.similarity_search_with_score('''capacitance = 6.88e-08 F, electric potential = 228.22 V, total electrostatic energy = 8.51e-06 J, 
+velocity of particle = 9.65e+05 m/s, electrostatic potential energy = unknown, mass of particle = unknown.''', k=10)
+    for doc, score in found_docs:
+        logger.debug(f'Score[{score}]\n{doc.page_content[:50]}\n------------------------\n')
+
+

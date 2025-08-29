@@ -3,3 +3,26 @@ Prompt,Question
 
  You may use the following environment - parallel plate capacitor, and it's properties and topic words - parallel plate capacitor area = 8.89e-02 m², parallel plate capacitor dielectric_constant = 8.55 . total electrostatic energy = 4.65e-06 J, mass of particle = 4.72e-04 kg, velocity of particle = 3.88e+05 m/s, electric potential = 188.59 V, electric field strength = 3.10e+05 N/C, electrostatic potential energy = unknown, charge of particle 1 = unknown, electrostatic force = unknown.","
 An electron with a mass of 4.72e-04 kg and a velocity of 3.88e+05 m/s is traveling towards a parallel plate capacitor with an area of 8.89e-02 m² and a dielectric constant of 8.55. Given that the electric potential of the capacitor is 188.59 V and the electric field strength is 3.10e+05 N/C, what is the electrostatic potential energy, charge of the particle, and electrostatic force experienced by the electron as it passes through the capacitor?"
+"Generate a physics question using all the known and unknown variables. You must use all the variables.
+[variables] electrostatic potential energy = 7.10e-06 J, charge of particle 1 = 4.56e-07 C, electric potential = unknown.
+and you may choose to use the elements from topic phrase.
+[topic phrase] **Overview:**
+- Electric influences and domains
+- Computation of electric field vectors \( E_{1B} \) and \( E_{2B} \ resulting from positive and negative charges
+- Strength and orientation of electric domains
+- Utilization of Gauss's principle
+- Reliance on charge arrangement and symmetry
+- The connection between forces and electric domains
+- Coulomb's principle and its use in empty space versus substances
+- Challenges in determining electric domains in complex charge arrangements. Do not provide solution to the question, as it will be solved directly by the student.","**Physics Question:**
+
+A point charge \( q_1 = 4.56 \times 10^{-7} \, \text{C} \) is placed in a vacuum at a distance \( r \) from another point charge, creating an electrostatic potential energy \( U = 7.10 \times 10^{-6} \, \text{J} \) between the two charges. 
+
+1. Using Coulomb's principle, express the electric potential \( V \) at the position of charge \( q_1 \) due to a second charge \( q_2 \) of unknown magnitude placed at distance \( r \).
+2. Consider the electric influences and domains created by these charges. Discuss how the arrangement and symmetry of the charges affect the computation of the electric field vector \( E \) at the position of \( q_1 \).
+3. Assuming \( q_2 \) is also a positive charge, how would you utilize Gauss's principle to determine the net electric field in this configuration? 
+4. Can the determination of electric domains lead to challenges if the arrangement of the charges is complex, particularly if other forces are also acting in the system? 
+
+Your task is to find the relationship between the electric potential \( V \) and the known variables while considering the impact of \( q_2 \) and its arrangement. 
+
+(Note: Distance \( r \) remains a variable that will also need to be considered in determining \( V \).)"

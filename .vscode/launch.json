@@ -6,7 +6,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "python": "/home/tirthankar-mittra/ai_ml/bin/python"
+            "python": "/home/tmittra/ai/bin/python"
         }
     ]
 }

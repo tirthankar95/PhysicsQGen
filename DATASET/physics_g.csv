@@ -29,3 +29,36 @@ What is the gravitational potential energy of a body with an unknown mass locate
 How does the presence of a black hole in the Milky Way affect the orbital period and gravitational potential energy of objects within its vicinity, given a distance of 8.02e+15 m between the two bodies and a Kepler orbital period of 299.81 years? What would be the resulting orbital period and gravitational potential energy if the distance between the two bodies is unknown and the force exerted on an object is also unknown?"
 "Give me a physics question using the following variable and words . You may use the following environment - Solar system ( bacillus ) , and it 's property and subject words - proxima centauri ( bacillus ) . gravitational potential = -435.01 Jkg^-1, mass of body 1 = 7.82e+30 kg, distance between two bodies = 9.06e+15 m, gravitational potential energy = unknown, force = unknown.","
 What is the gravitational potential energy between the Solar System (bacillus) and Proxima Centauri (bacillus) given that the mass of the Solar System is 7.82e+30 kg, the distance between the two bodies is 9.06e+15 m, and the gravitational potential between them is -435.01 Jkg^-1? Additionally, what is the force acting between the two bodies?"
+"Generate a physics question using all the known and unknown variables. You must use all the variables.
+[variables] gravitational potential energy = -2.75e+28 J, force = 5.74e+20 N, distance between two bodies = unknown.
+and you may choose to use the elements from topic phrase.
+[topic phrase] **Summary:**
+
+- Potential energy difference between two points (r2 and r1) related to distance from the Earth's center.
+- The orbital size of a hypothetical planet orbiting the Sun at double the Earth's speed.
+- Io's orbital period and radius; comparison of Jupiter's mass to the Sun's mass.
+- Calculation of work done displacing a particle from infinity under gravitational force.
+- Gravitational potential energy relating to particle mass and Earth’s gravitational forces.
+- Definition of gravitational potential and associated equations, including gravitational force and potential energy related to two particles.
+- Energy changes when transferring a satellite from one circular orbit to another around the Earth, with specific calculations for initial and final energies. 
+
+**Key Phrases:**
+- Potential energy, gravitational force, orbital size, mass comparison, work done, conservative force, gravitational potential energy, energy changes, satellite orbit.. Do not provide solution to the question, as it will be solved directly by the student.","**Physics Problem:**
+
+Two celestial bodies, A and B, exert a gravitational force on each other. The gravitational potential energy (U) between them is given as -2.75e+28 J, and the gravitational force (F) exerted by body A on body B is measured at 5.74e+20 N. 
+
+Using the formula for gravitational potential energy:
+
+\[ U = -\frac{G \cdot m_1 \cdot m_2}{r} \]
+
+and the gravitational force formula:
+
+\[ F = \frac{G \cdot m_1 \cdot m_2}{r^2} \]
+
+where \( G \) is the gravitational constant, \( m_1 \) and \( m_2 \) are the masses of the two bodies, and \( r \) is the distance between them (which is unknown).
+
+1. **Question:** Based on the given values of gravitational potential energy and force, derive an expression for the distance \( r \) between the two bodies in terms of the known quantities. 
+
+2. **Bonus Inquiry:** If the mass of body A is twice that of body B, express the masses and use them to further simplify your equation for \( r \) to find the distance between the two bodies.
+
+*Note: Avoid numerical calculations and provide a symbolic solution based on the variables given.*"
