@@ -31,12 +31,11 @@ This project uses an agentic RAG pipeline to iteratively retrieve and refine con
 ```bash
 python physics.py
 ```
-![Options](src/options.png)
+![Options](src/screenshot.png)
 
 ## Citation
 
 If you use this codebase, please cite or acknowledge appropriately.
+For questions or suggestions, open an issue or contact the maintainer.
 
 ---
-
-For questions or suggestions, open an issue or contact the maintainer.
