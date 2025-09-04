@@ -26,7 +26,8 @@ This project uses an agentic RAG pipeline to iteratively retrieve and refine con
 
 ## How to Run
 
-`physics.py` is the main entry point. Currently we have used the following topics. 
+`physics.py` is the main entry point. 
+Currently we have added the following topics.(see picture below) 
 
 ```bash
 python physics.py
