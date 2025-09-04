@@ -6,7 +6,7 @@ Generate high-quality, diverse physics word problems using LLMs and agentic Retr
 
 - **DATASET**: Saved physics questions by topic.
 - **ENTITY**: Topic entities with words and properties.
-- **FINE_TUNE_GPT2**: GPT-2 finetuning code.
+- **FINE_TUNE_GPT2**: GPT-2 fine tuning code.
 - **LLM**: RAG chains for question generation.
 - **LLM_CONFIG**: LLM selection/configuration.
     - `BUILD_DATASET`: Save generated questions if true.
@@ -26,7 +26,7 @@ This project uses an agentic RAG pipeline to iteratively retrieve and refine con
 
 ## How to Run
 
-`physics.py` is the main entry point.
+`physics.py` is the main entry point. Currently we have used the following topics. 
 
 ```bash
 python physics.py

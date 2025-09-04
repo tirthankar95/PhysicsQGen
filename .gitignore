@@ -5,3 +5,4 @@ __pycache__/
 /LLM_CONFIG/configLLM_RAG.json
 /LLM_CONFIG/configOpenAI.json
 openai_key.txt
+.vscode/
